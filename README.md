@@ -1,2 +1,3 @@
 # Excel--Assignment
-Dataset and solutions
+This assignment explores product prices, quantities, and categories and demonstrates how Excel formulas can be used to summarize and analyse a dataset.
+From this data exploration, I found the total price of the products, total count of the quantities, average price, maximum price, and minimum price. Using the IF function, I categorized the products based on their price. Using the SUMIF function, I calculated the total price based on different categories. The COUNTIF function was used to count records based on specific conditions. I also extracted the day, country code, and month from the Product ID using the LEFT, RIGHT, and MID functions.
