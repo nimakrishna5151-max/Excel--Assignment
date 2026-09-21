@@ -1,3 +1,10 @@
-# Excel--Assignment
+# Excel--Assignment 1
 This assignment explores product prices, quantities, and categories and demonstrates how Excel formulas can be used to summarize and analyse a dataset.
 From this data exploration, I found the total price of the products, total count of the quantities, average price, maximum price, and minimum price. Using the IF function, I categorized the products based on their price. Using the SUMIF function, I calculated the total price based on different categories. The COUNTIF function was used to count records based on specific conditions. I also extracted the day, country code, and month from the Product ID using the LEFT, RIGHT, and MID functions.
+## Assignemt 2 - Data cleaning and Transformation 
+1).**Handling missing values:** Identified the missing values in the price column and replaced it with the median value. Median value is used because it is less affected by the outliers.
+2) **Correcting Inconsistent Data:** identified the inconsistent text formats present in the product name column and the category column, by pressing ctrl+h in find what type I typed Electroni then click >> options >>tick match entire column, replace with Electronics>>replace all (when I do with just replace all function electronics that was already there becomes Electronicscs). Missing values in the category column was replaced by the “Unknown” because the category is a categorical or text.
+3). **Removing duplicates:** selected the full dataset and removed the duplicates (Data>>Remove duplicates
+4). **Splitting and merging data-** I tried with text to column ribbon, but it gives like 4 splitted columns so I used text before function to get the manufacturing date and used text after function to get the country code.
+Merged the brand name and product name column named product brand using concat function
+5).**Number formatting:** formatted the data type of price to currency and applied the data bar to highlight the higher price and lower price. Created a custom rule for condtional formatting category column using new rule in conditional formatting and  >> equal to >> selected the electronics cell give ethe colour format >>ok
